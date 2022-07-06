@@ -9,7 +9,16 @@ h1 {
 
 }
 
+h2 {
+    text-align: center;
+    font-size: 500;
 
+}
+
+p {
+    text-align: center;
+    border-bottom: 100px;
+}
 
 
 .link-button {
@@ -20,6 +29,7 @@ h1 {
     padding: 10px 40px;
     border-radius: 5px;
     text-align: center;
+    border-bottom: 200px;
 }
 
 .first-part {
@@ -29,5 +39,71 @@ h1 {
     background-repeat: no-repeat;
     color: white;
     text-align: center;
+    margin-bottom: 50px;
 
+}
+
+.second-part {
+    text-align: center;
+
+}
+
+footer {
+
+    background-color: black;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.five-box-item {
+    box-shadow: 20px 5px 20px rgb(169, 169, 169);
+    width: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+.three-box-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#separate-color {
+    box-shadow: 20px 5px 20px red;
+    width: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+form {
+    text-align: center;
+}
+
+
+#food {
+    border: 7px solid lightblue;
+}
+
+#shelter {
+    border: 7px solid lightcoral;
+}
+
+#education {
+    border: 7px solid lightgreen;
 }
